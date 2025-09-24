@@ -1,50 +1,97 @@
-# Welcome to your Expo app 👋
+🎬 MovieHub
+A sleek and performant mobile application for discovering movies, built with React Native and Expo. Browse, search, and filter through thousands of movies, view detailed information, and keep a list of your bookmarked favorites.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+✨ Features
+Discover & Browse: Scroll through an infinite list of movies fetched from The Movie Database (TMDB).
 
-## Get started
+Powerful Search: Instantly search for any movie by title.
 
-1. Install dependencies
+Advanced Filtering: Filter the movie list by Genre, Language, and sort by Popularity, Rating, or Release Date.
 
-   ```bash
-   npm install
-   ```
+Detailed Movie Info: Tap on any movie to see a dedicated screen with its poster, backdrop, overview, rating, cast, and crew.
 
-2. Start the app
+Watch Trailers: Directly open the official movie trailer on YouTube.
 
-   ```bash
-   npx expo start
-   ```
+Bookmarking: Save your favorite movies for later. Your bookmarks are saved locally on your device.
 
-In the output, you'll find options to open the app in a
+Dark & Light Theme: Switch between a sleek dark mode and a clean light mode.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Optimized Performance: Built for a smooth user experience with high-performance components like expo-image for efficient image caching and useCallback to prevent unnecessary re-renders.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🛠️ Tech Stack
+Framework: React Native with Expo
 
-## Get a fresh project
+Language: TypeScript
 
-When you're ready, run:
+Navigation: Expo Router (File-based routing)
 
-```bash
-npm run reset-project
-```
+Data Fetching: Axios for making requests to the TMDB API
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+UI Components:
 
-## Learn more
+@react-native-picker/picker for dropdown filters
 
-To learn more about developing your project with Expo, look at the following resources:
+expo-image for high-performance image rendering
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Local Storage: @react-native-async-storage/async-storage for saving bookmarks
 
-## Join the community
+🚀 Get the App
+You can install the latest version of the app directly on your Android device.
 
-Join our community of developers creating universal apps.
+Scan the QR code below with your phone's camera or click the link.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Download the .apk file.
+
+When prompted, allow your browser to "Install from unknown sources". This is a standard Android security step for apps outside the Play Store.
+
+Direct Download Link: MovieHubApp.apk
+
+🔧 Running the Project Locally
+To run this project on your own machine for development, follow these steps:
+
+1. Prerequisites
+
+Node.js (LTS version)
+
+Git
+
+Expo Go app on your phone (optional, for quick testing)
+
+2. Clone the Repository
+
+Bash
+
+git clone https://github.com/your-username/MovieHubApp.git
+cd MovieHubApp
+3. Install Dependencies
+
+Bash
+
+npm install
+4. Set Up Your API Key
+The app requires an API key from The Movie Database (TMDB).
+
+Create a file named config.js in the root of the project.
+
+Add your API key to it like this:
+
+JavaScript
+
+// config.js
+export const API_KEY = 'YOUR_TMDB_API_KEY_HERE';
+(Note: config.js is included in .gitignore and will not be committed to the repository).
+
+5. Start the Development Server
+
+Bash
+
+npx expo start
+Scan the QR code with the Expo Go app on your phone, or run it on an emulator.
+
+🙏 Acknowledgments
+This project was created by Guru (guru1613).
+
+All movie data and images are provided by The Movie Database (TMDB).
+
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.

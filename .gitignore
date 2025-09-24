@@ -1,3 +1,12 @@
+Of course. Here is your `.gitignore` file, updated with the crucial additions to protect your API key and ignore the final build files.
+
+The most important line added is `config.js` at the bottom.
+
+-----
+
+### \#\# Corrected `.gitignore`
+
+```
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
 # dependencies
@@ -41,3 +50,11 @@ app-example
 # generated native folders
 /ios
 /android
+
+# Build artifacts
+*.apk
+*.aab
+
+# IMPORTANT: Your API Key File
+config.js
+```

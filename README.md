@@ -2,9 +2,6 @@
 
 A sleek and performant mobile application for discovering movies, built with React Native and Expo. Browse, search, and filter through thousands of movies, view detailed information, and keep a list of your bookmarked favorites.
 
-<br/>
-
-*Replace this with a screenshot or GIF of your app in action!*
 ---
 
 ## ✨ Features
@@ -37,8 +34,8 @@ A sleek and performant mobile application for discovering movies, built with Rea
 
 You can install the latest version of the app directly on your Android device.
 
-1.  Scan the QR code below with your phone's camera or click the link.
+1.  Click the link.
 2.  Download the `.apk` file.
 3.  When prompted, allow your browser to **"Install from unknown sources"**. This is a standard Android security step for apps outside the Play Store.
 
-**Direct Download Link:** **MovieHubApp.apk**
+Direct Download Link: MovieHubApp.apk

@@ -29,13 +29,3 @@ A sleek and performant mobile application for discovering movies, built with Rea
 * **Local Storage:** `@react-native-async-storage/async-storage` for saving bookmarks
 
 ---
-
-## 🚀 Get the App
-
-You can install the latest version of the app directly on your Android device.
-
-1.  Click the link.
-2.  Download the `.apk` file.
-3.  When prompted, allow your browser to **"Install from unknown sources"**. This is a standard Android security step for apps outside the Play Store.
-
-Direct Download Link: MovieHubApp.apk
